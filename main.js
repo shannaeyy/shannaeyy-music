@@ -3,10 +3,10 @@ addEventListener('fetch', event => {
 });
 
 // Add your bot token here.
-const BOT_TOKEN = "bot token here";
+const BOT_TOKEN = "your bot token here";
 
 //Pro people: don't change this else your bot will be fucked.
-const API_BASE_URL = "https://probable-berti-frozenbotspvt-17e82b7b.koyeb.app";
+const API_BASE_URL = "https://metropolitan-loise-vibeshiftbot-f38d853c.koyeb.app";
 
 //Pro people: don't change this else your bot will be fucked.
 const ASSISTANT_ID = "7049510852";
@@ -686,7 +686,7 @@ async function handleRequest(request) {
       const uptimeSeconds = Math.floor((Date.now() - botStartTime) / 1000);
       const userMention = message.from ? message.from.first_name : "there";
       const caption = (
-        `👋 нєу ${userMention} 💠, 🥀\n\n` +
+        `👋 нєу 💠, 🥀\n\n` +
         "🎶 Wᴇʟᴄᴏᴍᴇ ᴛᴏ Fʀᴏᴢᴇɴ 🥀 ᴍᴜsɪᴄ! 🎵\n\n" +
         "➻ 🚀 A Sᴜᴘᴇʀғᴀsᴛ & Pᴏᴡᴇʀғᴜʟ Tᴇʟᴇɢʀᴀᴍ Mᴜsɪᴄ Bᴏᴛ ᴡɪᴛʜ ᴀᴍᴀᴢɪɴɢ ғᴇᴀᴛᴜʀᴇs. ✨\n\n" +
         "🎧 Sᴜᴘᴘᴏʀᴛᴇᴅ Pʟᴀᴛғᴏʀᴍs: ʏᴏᴜᴛᴜʙᴇ, sᴘᴏᴛɪғʏ, ʀᴇssᴏ, ᴀᴘᴘʟᴇ ᴍᴜsɪᴄ, sᴏᴜɴᴅᴄʟᴏᴜᴅ.\n\n" +
@@ -696,7 +696,7 @@ async function handleRequest(request) {
         "🖼️ Image Generation with AI creativity.\n" +
         "👥 Group Management tools for admins.\n" +
         "💡 And many more exciting features!\n\n" +
-        `**Uptime:** \`${formatUptime(uptimeSeconds)}\`\n\n` +
+        `**Uptime:** \n\n` +
         "──────────────────\n" +
         "๏ ᴄʟɪᴄᴋ ᴛʜᴇ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ғᴏʀ ᴍᴏᴅᴜʟᴇ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅ ɪɴғᴏ.."
       );
